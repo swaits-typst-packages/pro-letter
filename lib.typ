@@ -120,7 +120,7 @@
     // Render the address, line by line, only including non-none elements.
     if a.name != none { a.name + "\n" }
     if a.company != none { a.company + "\n" }
-    if a.attention != none { "a.attention: " + a.attention + "\n" }
+    if a.attention != none { "Attn: " + a.attention + "\n" }
     if a.street != none { a.street + "\n" }
     if a.city != none and a.state != none and a.zip != none {
         a.city + ", " + a.state + " " + a.zip + "\n"
